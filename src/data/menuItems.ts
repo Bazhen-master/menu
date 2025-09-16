@@ -846,7 +846,497 @@ export const menuItems: MenuItemData[] = [
   price: 650,
   category: "Текила",
   alcoholContent: "40% алк."
+},
+  // Коньяк — 50мл
+{
+  id: 109,
+  name: "Курвуазье ВСОП 50мл",
+  description: "Коньяк 40%",
+  price: 750,
+  category: "Коньяк",
+  alcoholContent: "40% алк."
+},
+{
+  id: 110,
+  name: "Франсуа де Мартиньяк ВС 50мл",
+  description: "Коньяк 40%",
+  price: 550,
+  category: "Коньяк",
+  alcoholContent: "40% алк."
+},
+{
+  id: 111,
+  name: "Мартель ВС 50мл",
+  description: "Коньяк 40%",
+  price: 650,
+  category: "Коньяк",
+  alcoholContent: "40% алк."
+},
+{
+  id: 112,
+  name: "Камю ВС 50мл",
+  description: "Коньяк 40%",
+  price: 500,
+  category: "Коньяк",
+  alcoholContent: "40% алк."
+},
+{
+  id: 113,
+  name: "Арарат 5 50мл",
+  description: "Коньяк 40%",
+  price: 350,
+  category: "Коньяк",
+  alcoholContent: "40% алк."
+},
+{
+  id: 114,
+  name: "Арарат 3 50мл",
+  description: "Коньяк 40%",
+  price: 300,
+  category: "Коньяк",
+  alcoholContent: "40% алк."
+},
+{
+  id: 115,
+  name: "Старый Кенигсберг 5 лет 50мл",
+  description: "Коньяк 40%",
+  price: 250,
+  category: "Коньяк",
+  alcoholContent: "40% алк."
+},
+
+// Ликёры — 50мл
+{
+  id: 116,
+  name: "Егермейстер 50мл",
+  description: "Ликёр 35%",
+  price: 450,
+  category: "Ликёры",
+  alcoholContent: "35% алк."
+},
+{
+  id: 117,
+  name: "Минтту 50мл",
+  description: "Ликёр 16-35%",
+  price: 500,
+  category: "Ликёры",
+  alcoholContent: "16-35% алк."
+},
+{
+  id: 118,
+  name: "Самбука 50мл",
+  description: "Ликёр 38%",
+  price: 350,
+  category: "Ликёры",
+  alcoholContent: "38% алк."
+},
+{
+  id: 119,
+  name: "Монин 50мл",
+  description: "Ликёр 16-38%",
+  price: 350,
+  category: "Ликёры",
+  alcoholContent: "16-38% алк."
+},
+
+// Водка — 50мл/500мл
+{
+  id: 120,
+  name: "Онегин 50мл",
+  description: "Водка 40%",
+  price: 300,
+  category: "Водка",
+  alcoholContent: "40% алк."
+},
+{
+  id: 121,
+  name: "Онегин 500мл",
+  description: "Водка 40%",
+  price: 3000,
+  category: "Водка",
+  alcoholContent: "40% алк."
+},
+{
+  id: 122,
+  name: "Лаб №40 50мл",
+  description: "Водка 40%",
+  price: 200,
+  category: "Водка",
+  alcoholContent: "40% алк."
+},
+{
+  id: 123,
+  name: "Лаб №40 500мл",
+  description: "Водка 40%",
+  price: 2000,
+  category: "Водка",
+  alcoholContent: "40% алк."
+},
+{
+  id: 124,
+  name: "Коскенкорва 50мл",
+  description: "Водка 40%",
+  price: 350,
+  category: "Водка",
+  alcoholContent: "40% алк."
+},
+{
+  id: 125,
+  name: "Коскенкорва 500мл",
+  description: "Водка 40%",
+  price: 3500,
+  category: "Водка",
+  alcoholContent: "40% алк."
+},
+{
+  id: 126,
+  name: "Царская 50мл",
+  description: "Водка 40%",
+  price: 200,
+  category: "Водка",
+  alcoholContent: "40% алк."
+},
+{
+  id: 127,
+  name: "Царская 500мл",
+  description: "Водка 40%",
+  price: 2000,
+  category: "Водка",
+  alcoholContent: "40% алк."
+},
+{
+  id: 128,
+  name: "Арктика 50мл",
+  description: "Водка 40%",
+  price: 200,
+  category: "Водка",
+  alcoholContent: "40% алк."
+},
+{
+  id: 129,
+  name: "Арктика 500мл",
+  description: "Водка 40%",
+  price: 2000,
+  category: "Водка",
+  alcoholContent: "40% алк."
+},
+{
+  id: 130,
+  name: "Хаски 50мл",
+  description: "Водка 40%",
+  price: 150,
+  category: "Водка",
+  alcoholContent: "40% алк."
+},
+{
+  id: 131,
+  name: "Хаски 500мл",
+  description: "Водка 40%",
+  price: 1500,
+  category: "Водка",
+  alcoholContent: "40% алк."
+},
+{
+  id: 132,
+  name: "Архангельская 50мл",
+  description: "Водка 40%",
+  price: 150,
+  category: "Водка",
+  alcoholContent: "40% алк."
+},
+{
+  id: 133,
+  name: "Архангельская 500мл",
+  description: "Водка 40%",
+  price: 1500,
+  category: "Водка",
+  alcoholContent: "40% алк."
+},
+
+// Снеки
+{
+  id: 134,
+  name: "Фисташки 50гр",
+  price: 200,
+  category: "Снеки"
+},
+{
+  id: 135,
+  name: "Кальмары 38гр",
+  price: 150,
+  category: "Снеки"
+},
+{
+  id: 136,
+  name: "Чипсы 70гр",
+  price: 200,
+  category: "Снеки"
+},
+{
+  id: 137,
+  name: "Сухарики 100гр",
+  price: 150,
+  category: "Снеки"
+},
+{
+  id: 138,
+  name: "Арахис в корочке 60гр",
+  price: 150,
+  category: "Снеки"
+},
+{
+  id: 139,
+  name: "Сыр соломка Чечил 100гр",
+  price: 200,
+  category: "Снеки"
+},
+{
+  id: 140,
+  name: "Жареные орехи с солью 50гр",
+  price: 200,
+  category: "Снеки"
+},
+{
+  id: 141,
+  name: "Принглс 165гр",
+  price: 500,
+  category: "Снеки"
+},
+{
+  id: 142,
+  name: "Риттер Спорт 100гр",
+  price: 300,
+  category: "Снеки"
+},
+
+// Безалкогольные
+{
+  id: 143,
+  name: "БонАква 500мл",
+  price: 150,
+  category: "Безалкогольные"
+},
+{
+  id: 144,
+  name: "Жемчужина Байкала 530мл",
+  price: 250,
+  category: "Безалкогольные"
+},
+{
+  id: 145,
+  name: "Нарзан 500мл",
+  price: 200,
+  category: "Безалкогольные"
+},
+{
+  id: 146,
+  name: "Сок Добрый 1л",
+  price: 400,
+  category: "Безалкогольные"
+},
+{
+  id: 147,
+  name: "Газ вода Добрый 500мл",
+  price: 200,
+  category: "Безалкогольные"
+},
+{
+  id: 148,
+  name: "Тоник Рич 330мл",
+  price: 250,
+  category: "Безалкогольные"
+},
+{
+  id: 149,
+  name: "Ред Булл 250мл",
+  price: 350,
+  category: "Безалкогольные"
+},
+{
+  id: 150,
+  name: "Бёрн 330мл",
+  price: 250,
+  category: "Безалкогольные"
+},
+{
+  id: 151,
+  name: "Вольт 450мл",
+  price: 200,
+  category: "Безалкогольные"
+},
+{
+  id: 152,
+  name: "Фанта/Спрайт/Кола 330мл",
+  price: 250,
+  category: "Безалкогольные"
+},
+{
+  id: 153,
+  name: "Мохито",
+  price: 200,
+  category: "Безалкогольные"
+},
+
+// Чай/Кофе
+{
+  id: 154,
+  name: "Американо 200мл",
+  price: 200,
+  category: "Чай/Кофе"
+},
+{
+  id: 155,
+  name: "Капучино 200мл",
+  price: 250,
+  category: "Чай/Кофе"
+},
+{
+  id: 156,
+  name: "Эспрессо тоник 300мл",
+  price: 350,
+  category: "Чай/Кофе"
+},
+{
+  id: 157,
+  name: "Бамбл 300мл",
+  price: 350,
+  category: "Чай/Кофе"
+},
+{
+  id: 158,
+  name: "Чай в ассортименте 500мл",
+  price: 250,
+  category: "Чай/Кофе"
+},
+  // Виски — Шотландия
+{
+  id: 159,
+  name: "Вильям Лоусонс 50мл",
+  description: "Шотландия, 40%",
+  price: 350,
+  category: "Виски",
+  alcoholContent: "40% алк."
+},
+{
+  id: 160,
+  name: "Дюарс Уайт Лейбл 50мл",
+  description: "Шотландия, 40%",
+  price: 350,
+  category: "Виски",
+  alcoholContent: "40% алк."
+},
+{
+  id: 161,
+  name: "Баллантайнс Файнест 50мл",
+  description: "Шотландия, 40%",
+  price: 450,
+  category: "Виски",
+  alcoholContent: "40% алк."
+},
+{
+  id: 162,
+  name: "Лафройг 10 лет 50мл",
+  description: "Шотландия, 40%",
+  price: 1000,
+  category: "Виски",
+  alcoholContent: "40% алк."
+},
+{
+  id: 163,
+  name: "Акентошан Американ Оук 50мл",
+  description: "Шотландия, 40%",
+  price: 700,
+  category: "Виски",
+  alcoholContent: "40% алк."
+},
+{
+  id: 164,
+  name: "Джонни Уокер Рэд Лейбл 50мл",
+  description: "Шотландия, 40%",
+  price: 400,
+  category: "Виски",
+  alcoholContent: "40% алк."
+},
+
+// Виски — Америка
+{
+  id: 165,
+  name: "Джек Дениелс 50мл",
+  description: "Америка, 40%",
+  price: 700,
+  category: "Виски",
+  alcoholContent: "40% алк."
+},
+{
+  id: 166,
+  name: "Джим Бим 50мл",
+  description: "Америка, 40%",
+  price: 550,
+  category: "Виски",
+  alcoholContent: "40% алк."
+},
+{
+  id: 167,
+  name: "Джим Бим Эппл 50мл",
+  description: "Америка, 40%",
+  price: 550,
+  category: "Виски",
+  alcoholContent: "40% алк."
+},
+{
+  id: 168,
+  name: "Джим Бим Рэд Стаг 50мл",
+  description: "Америка, 40%",
+  price: 550,
+  category: "Виски",
+  alcoholContent: "40% алк."
+},
+
+// Виски — Ирландия
+{
+  id: 169,
+  name: "Джемесон 50мл",
+  description: "Ирландия, 40%",
+  price: 600,
+  category: "Виски",
+  alcoholContent: "40% алк."
+},
+{
+  id: 170,
+  name: "Даблинер 50мл",
+  description: "Ирландия, 40%",
+  price: 450,
+  category: "Виски",
+  alcoholContent: "40% алк."
+},
+{
+  id: 171,
+  name: "Борн Айриш 50мл",
+  description: "Ирландия, 40%",
+  price: 550,
+  category: "Виски",
+  alcoholContent: "40% алк."
+},
+{
+  id: 172,
+  name: "Киркер Шемрок 50мл",
+  description: "Ирландия, 40%",
+  price: 650,
+  category: "Виски",
+  alcoholContent: "40% алк."
+},
+
+// Виски — Россия
+{
+  id: 173,
+  name: "Данмор 50мл",
+  description: "Россия, 40%",
+  price: 250,
+  category: "Виски",
+  alcoholContent: "40% алк."
 }
+
+
 
 
 ];
@@ -863,8 +1353,7 @@ export const categories = [
   "Коньяк", 
   "Ликёры", 
   "Пиво", 
-  "Вино", 
-  "Закуски", 
+  "Вино",  
   "Снеки", 
   "Чай/Кофе", 
   "Безалкогольные"
