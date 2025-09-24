@@ -6,45 +6,11 @@ export interface Category {
 }
 
 export const menuItems: MenuItemData[] = [
-  // Коктейли — Авторские
-  {
-    id: 1,
-    name: "За деньги Да 300мл",
-    description: "Водка Дж.Дж.Уитли груша; Минтту перечная мята; ликер Блю Кюрасао; сок ананас; лайм",
-    price: 500,
-    category: "Коктейли",
-    subcategory: "Авторские",
-    isPopular: true,
-    alcoholContent: "20% алк."
-  },
-  {
-    id: 3,
-    name: "Последняя любовь 250мл",
-    description: "Текила; ликёр Амаретто; апельсиновый сок; сироп гренадин-красный апельсин;, лайм.",
-    price: 450,
-    category: "Коктейли",
-    subcategory: "Авторские",
-    isPopular: true,
-    alcoholContent: "18% алк."
-  },
-  {
-    id: 38,
-    name: "Санта Барбара 300мл",
-    description: "Водка Дж.Дж.Уитли груша, джин Уитли Нейл, сок ананас, сироп эстрагон-яблоко, лайм",
-    price: 450,
-    category: "Коктейли",
-    subcategory: "Авторские",
-    alcoholContent: "18% алк."
-  },
-  {
-    id: 39,
-    name: "Гильотина",
-    description: "Мартини Фиеро, лимонад мохито, слайс лайма",
-    price: 450,
-    category: "Коктейли",
-    subcategory: "Авторские",
-    alcoholContent: "средней крепости"
-  },
+  // Коктейли — Акции
+  { id: 201, name: "ЯРЛС", description: "6 шотов, водка, ликер, сок, сироп, лимон", price: 800, subcategory: "Акции", alcoholContent: "10%" },
+  { id: 202, name: "Виски кола 2+1", description: "Виски, кола, лимон", price: 0, subcategory: "Акции", alcoholContent: "15%" },
+  { id: 203, name: "Фантазёр", description: "4 коктейля водка с фантой", price: 1000, subcategory: "Акции", alcoholContent: "15%" },
+  { id: 204, name: "Зеленый Less", description: "4 шота Оакхарт, ликёр, сок, лайм", price: 800, subcategory: "Акции", alcoholContent: "25%" },
 
   // Коктейли — Популярные
   {
@@ -1354,7 +1320,8 @@ export const categories = [
   "Ликёры", 
   "Пиво", 
   "Вино",  
-  "Снеки", 
+  "Снеки",
+  "Закуски",
   "Чай/Кофе", 
   "Безалкогольные"
 ];
