@@ -12,380 +12,70 @@ export const menuItems: MenuItemData[] = [
   { id: 203, name: "Фантазёр", description: "4 коктейля водка с фантой", price: 1000, subcategory: "Акции", alcoholContent: "15%" },
   { id: 204, name: "Зеленый Less", description: "4 шота Оакхарт, ликёр, сок, лайм", price: 800, subcategory: "Акции", alcoholContent: "25%" },
 
-  // Коктейли — Популярные
-  {
-    id: 47,
-    name: "Водка Энергетик",
-    description: "Водка; энергетик Вольт; лимон",
-    price: 350,
-    category: "Коктейли",
-    subcategory: "Популярные",
-    alcoholContent: "средней крепости"
-  },
-  {
-    id: 48,
-    name: "Лонг Айленд Айсти 300мл",
-    description: "Водка; ром; текила; джин; ликёр трипл сек; кола; сироп; лимон",
-    price: 600,
-    category: "Коктейли",
-    subcategory: "Популярные",
-    alcoholContent: "20% алк."
-  },
-  {
-    id: 49,
-    name: "Зелёная фея 300мл",
-    description: "Водка; ром; текила; ликёр дыня-блю кюрасао; абсент; сироп; Ред Булл; лайм",
-    price: 650,
-    category: "Коктейли",
-    subcategory: "Популярные",
-    alcoholContent: "сильной крепости"
-  },
-  {
-    id: 50,
-    name: "Старый Егерь 300мл",
-    description: "Егермейстер; Ред Булл; апельсин",
-    price: 650,
-    category: "Коктейли",
-    subcategory: "Популярные",
-    alcoholContent: "средней крепости"
-  },
-  {
-    id: 51,
-    name: "Бабл Гам 250мл",
-    description: "Водка; морс; спрайт; сироп бабл гам; лимон",
-    price: 350,
-    category: "Коктейли",
-    subcategory: "Популярные",
-    alcoholContent: "средней крепости"
-  },
-  {
-    id: 52,
-    name: "Белый Русский 200мл",
-    description: "Водка; кофейный ликёр; сливки",
-    price: 450,
-    category: "Коктейли",
-    subcategory: "Популярные",
-    alcoholContent: "средней крепости"
-  },
-  {
-    id: 53,
-    name: "Негрони 200мл",
-    description: "Мартини; Кампари; Уитли Нейл; ангостура; биттер",
-    price: 600,
-    category: "Коктейли",
-    subcategory: "Популярные",
-    alcoholContent: "20% алк."
-  },
-  {
-    id: 54,
-    name: "Пенициллин 200мл",
-    description: "Вильям Лоусон; Лафройг 10 лет; сироп мед имбирь; лимонный сок; апельсин",
-    price: 650,
-    category: "Коктейли",
-    subcategory: "Популярные",
-    alcoholContent: "20% алк."
-  },
-
-  // Коктейли — Спритц
-  {
-    id: 4,
-    name: "Aperol Spritz",
-    description: "Аперол, просекко, содовая и долька апельсина",
-    price: 650,
-    category: "Коктейли",
-    subcategory: "Спритц коктейли",
-    alcoholContent: "11% алк."
-  },
-  {
-    id: 21,
-    name: "Hugo Spritz",
-    description: "Просекко, сироп бузины, мята и содовая",
-    price: 600,
-    category: "Коктейли",
-    subcategory: "Спритц коктейли",
-    alcoholContent: "8% алк."
-  },
-  {
-    id: 40,
-    name: "Кампари Спритц 300мл",
-    description: "Кампари; Шато Тамань Селект Брют; содовая; апельсин",
-    price: 500,
-    category: "Коктейли",
-    subcategory: "Спритц коктейли",
-    alcoholContent: "11% алк."
-  },
-  {
-    id: 41,
-    name: "Сарти Спритц 300мл",
-    description: "Сарти; Шато Тамань Селект Брют; содовая; апельсин",
-    price: 500,
-    category: "Коктейли",
-    subcategory: "Спритц коктейли",
-    alcoholContent: "11% алк."
-  },
-
-  // Коктейли — Спецпредложения (кроме "Счастливый час")
-  {
-    id: 42,
-    name: "Мартини Фиеро Тоник 300мл",
-    description: "Мартини Фиеро; тоник; апельсин",
-    price: 500,
-    category: "Коктейли",
-    subcategory: "Спецпредложения",
-    alcoholContent: "средней крепости"
-  },
-  {
-    id: 43,
-    name: "Мартини Бьянко Тоник 300мл",
-    description: "Мартини Бьянко; тоник; апельсин",
-    price: 500,
-    category: "Коктейли",
-    subcategory: "Спецпредложения",
-    alcoholContent: "средней крепости"
-  },
-  {
-    id: 44,
-    name: "Вильям Кола 200мл",
-    description: "Вильям Лоусонс; кола; лимон",
-    price: 450,
-    category: "Коктейли",
-    subcategory: "Спецпредложения",
-    alcoholContent: "средней крепости"
-  },
-  {
-    id: 45,
-    name: "Оакхарт Кола 200мл",
-    description: "Ром Оакхарт; кола; лимон",
-    price: 450,
-    category: "Коктейли",
-    subcategory: "Спецпредложения",
-    alcoholContent: "средней крепости"
-  },
-  {
-    id: 46,
-    name: "Босфорд Тоник 200мл",
-    description: "Джин Босфорд; тоник; лимон",
-    price: 450,
-    category: "Коктейли",
-    subcategory: "Спецпредложения",
-    alcoholContent: "средней крепости"
-  },
-
-  // Коктейли — АКЦИИ
-  {
-    id: 23,
-    name: "2+1 на шоты",
-    description: "При заказе двух любых шотов - третий в подарок",
-    price: 600,
-    category: "Коктейли",
-    subcategory: "АКЦИИ",
-    alcoholContent: "40% алк."
-  },
-  {
-    id: 25,
-    name: "Дамский вечер",
-    description: "Каждую среду скидка 30% на все коктейли для девушек",
-    price: 500,
-    category: "Коктейли",
-    subcategory: "АКЦИИ",
-    alcoholContent: "варьируется"
-  },
-  {
-    id: 30,
-    name: "ЯРЛС 300мл",
-    description: "Сет из 6 шотов: водка, ликер, сок, сироп, лимон",
-    price: 800,
-    category: "Коктейли",
-    subcategory: "АКЦИИ",
-    alcoholContent: "варьируется"
-  },
-  {
-    id: 31,
-    name: "Виски Кола 2+1 600мл",
-    description: "Виски, кола, лимон",
-    price: 800,
-    category: "Коктейли",
-    subcategory: "АКЦИИ",
-    alcoholContent: "варьируется"
-  },
-  {
-    id: 32,
-    name: "Фантазёр 800мл",
-    description: "4 коктейля: Водка Пять озёр, фанта",
-    price: 1000,
-    category: "Коктейли",
-    subcategory: "АКЦИИ",
-    alcoholContent: "варьируется"
-  },
-
   // Коктейли — Сеты для компаний
-  {
-    id: 26,
-    name: "Сет 'Вечеринка' (4 чел.)",
-    description: "4 коктейля на выбор + сырная тарелка + оливки микс",
-    price: 3200,
-    category: "Коктейли",
-    subcategory: "Сеты для компаний",
-    alcoholContent: "варьируется"
-  },
-  {
-    id: 27,
-    name: "Сет 'Корпоратив' (6 чел.)",
-    description: "6 коктейлей + 2 закуски + бутылка просекко",
-    price: 4800,
-    category: "Коктейли",
-    subcategory: "Сеты для компаний",
-    alcoholContent: "варьируется"
-  },
-  {
-    id: 28,
-    name: "Сет 'VIP' (8 чел.)",
-    description: "8 премиум коктейлей + 3 закуски + бутылка шампанского + фрукты",
-    price: 7500,
-    category: "Коктейли",
-    subcategory: "Сеты для компаний",
-    alcoholContent: "варьируется"
-  },
-  {
-    id: 29,
-    name: "Сет 'Дегустация' (2 чел.)",
-    description: "4 мини-коктейля разных стилей + легкие закуски",
-    price: 1800,
-    category: "Коктейли",
-    subcategory: "Сеты для компаний",
-    alcoholContent: "варьируется"
-  },
-  {
-    id: 33,
-    name: "Сет на ДР для Boys",
-    description: "Водка Хаски 0,5л, газированная вода 1,5л, фруктовая нарезка",
-    price: 1200,
-    category: "Коктейли",
-    subcategory: "Сеты для компаний",
-    alcoholContent: "варьируется"
-  },
-  {
-    id: 34,
-    name: "Сет на ДР для Girls",
-    description: "Шато Тамань Селект 0,75; фруктовая нарезка",
-    price: 1200,
-    category: "Коктейли",
-    subcategory: "Сеты для компаний",
-    alcoholContent: "варьируется"
-  },
-  {
-    id: 35,
-    name: "Окрыляющий сет",
-    description: "Водка Хаски 0,5; Ред Булл 0,25 ×4",
-    price: 1800,
-    category: "Коктейли",
-    subcategory: "Сеты для компаний",
-    alcoholContent: "варьируется"
-  },
-  {
-    id: 36,
-    name: "Вильям Team",
-    description: "Вильям Лоусонс 0,7; Добрый Кола ×4",
-    price: 3000,
-    category: "Коктейли",
-    subcategory: "Сеты для компаний",
-    alcoholContent: "варьируется"
-  },
-  {
-    id: 37,
-    name: "Оакхарт Team",
-    description: "Оакхарт 0,7; Добрый Кола ×4",
-    price: 3200,
-    category: "Коктейли",
-    subcategory: "Сеты для компаний",
-    alcoholContent: "варьируется"
-  },
+   { id: 205, name: "Сет по классике", description: "Водка Хаски 0,5л, газированная вода 1,5л, фруктовая нарезка", price: 1500, subcategory: "Сеты для компаний", alcoholContent: "40%" },
+  { id: 206, name: "Окрыляющий сет", description: "Водка Хаски 0,5; Ред Булл 0,25 ×4", price: 2000, subcategory: "Сеты для компаний", alcoholContent: "40%" },
+  { id: 207, name: "Вильям Team", description: "Вильям Лоусонс 0,7; Добрый Кола ×4", price: 3500, subcategory: "Сеты для компаний", alcoholContent: "40%" },
+  { id: 208, name: "Оакхарт Team", description: "Оакхарт 0,7; Добрый Кола ×4", price: 3700, subcategory: "Сеты для компаний", alcoholContent: "40%" },
+
+  // Коктейли — Авторские
+    { id: 209, name: "За деньги да", description: "Водка груша; Минтту перечная мята; ликер Блю Кюрасао; сок ананас; лайм", price: 500, subcategory: "Авторские", alcoholContent: "15%" },
+  { id: 210, name: "Санта Барбара", description: "Водка груша, джин, сок ананас, сироп эстрагон-яблоко, лайм", price: 450, subcategory: "Авторские", alcoholContent: "15%" },
+  { id: 211, name: "Гильотина", description: "Мартини Фиеро, лимонад мохито, сок лайма, долька апельсина", price: 450, subcategory: "Авторские", alcoholContent: "10%" },
+  { id: 212, name: "Последняя любовь", description: "Текила, ликер амаретто, апельсиновый сок, сироп гренадин-красный апельсин, сок лайма, долька апельсина", price: 450, subcategory: "Авторские", alcoholContent: "25%" },
+
+  // Коктейли — Спритц коктейли
+    { id: 213, name: "Апероль Спиритц", description: "Апероль, Шато Тамань брют, содовая, долька апельсина", price: 650, subcategory: "Спритц", alcoholContent: "11%" },
+  { id: 214, name: "Гурмэ Спиритц", description: "Онегин гурмэ, Шато Тамань брют, содовая, долька апельсина", price: 650, subcategory: "Спритц", alcoholContent: "15%" },
+  { id: 215, name: "Кампари Спиритц", description: "Кампари, Шато Тамань брют, содовая, долька апельсина", price: 500, subcategory: "Спритц", alcoholContent: "10%" },
+  { id: 216, name: "Сарти Спиритц", description: "Сарти, Шато Тамань брют, содовая, долька апельсина", price: 0, subcategory: "Спритц", alcoholContent: "14%" },
+
+  // Коктейли — Лонг коктейли
+  { id: 217, name: "Сингапурский слинг", description: "Джин, Бехеровка, ликер трипл сек-вишня, сироп гренадин, ангостура, ананасовый сок, лайм", price: 600, subcategory: "Лонг", alcoholContent: "15%" },
+  { id: 218, name: "Лонг Айленд Айсти", description: "Водка, ром, текила, джин, ликер трипл сек, сироп, лимон", price: 600, subcategory: "Лонг", alcoholContent: "20%" },
+  { id: 219, name: "Зеленая Фея", description: "Водка, ром, текила, ликер дыня-блю кюрасао, абсент, ред булл, лайм", price: 650, subcategory: "Лонг", alcoholContent: "25%" },
+  { id: 220, name: "Водка Вольт", description: "Водка, энергетик Вольт, лимон", price: 350, subcategory: "Лонг", alcoholContent: "20%" },
+  { id: 221, name: "Водка Бёрн", description: "Водка, энергетик Бёрн, лимон", price: 400, subcategory: "Лонг", alcoholContent: "20%" },
+  { id: 222, name: "Водка Ред Булл", description: "Водка, энергетик Ред Булл, лимон", price: 450, subcategory: "Лонг", alcoholContent: "20%" },
+  { id: 223, name: "Старый Егерь", description: "Егермейстер, Ред Булл, апельсин", price: 650, subcategory: "Лонг", alcoholContent: "20%" },
+  { id: 224, name: "Старый Травник", description: "Тундра битер, Вольт, апельсин", price: 400, subcategory: "Лонг", alcoholContent: "20%" },
+
+  // Коктейли — Классические коктейли
+  { id: 225, name: "Космополитен", description: "Водка, ликер трипл сек, морс, сироп, сок лимона", price: 400, subcategory: "Классические", alcoholContent: "25%" },
+  { id: 226, name: "Дайкири", description: "Ром, ликер трипл сек, сок лайма, сироп", price: 450, subcategory: "Классические", alcoholContent: "28%" },
+  { id: 227, name: "Маргарита", description: "Текила, ликер трипл сек, сок лайма, сироп", price: 500, subcategory: "Классические", alcoholContent: "28%" },
+  { id: 228, name: "Френч 75", description: "Джин, игристое, сироп, сок лимона", price: 450, subcategory: "Классические", alcoholContent: "20%" },
+  { id: 229, name: "Секс на пляже", description: "Водка, ликер персик, морс, ананасовый сок, сок лимона, сироп гренадин", price: 450, subcategory: "Классические", alcoholContent: "15%" },
+  { id: 230, name: "Текила Санрайз", description: "Текила, апельсиновый сок, сироп гренадин, апельсин", price: 450, subcategory: "Классические", alcoholContent: "15%" },
+  { id: 231, name: "Голубая лагуна", description: "Водка, ликер блю кюрасао, спрайт, лимон", price: 400, subcategory: "Классические", alcoholContent: "15%" },
+  
+   // Коктейли — Миксы
+  { id: 232, name: "Виски кола", description: "Виски Харатс, кола, лимон", price: 350, subcategory: "Миксы", alcoholContent: "15% алк." },
+  { id: 233, name: "Вильям Кола", description: "Вильям Лоусонс, кола, лимон", price: 450, subcategory: "Миксы", alcoholContent: "15% алк." },
+  { id: 234, name: "Оакхарт Кола", description: "Оакхарт, кола, лимон", price: 450, subcategory: "Миксы", alcoholContent: "15% алк." },
+  { id: 235, name: "Бомбей Тоник", description: "Джин Бомбей Сапфир, тоник, лимон", price: 600, subcategory: "Миксы", alcoholContent: "15% алк." },
+  { id: 236, name: "Джин Тоник", description: "Джин, тоник, лимон", price: 350, subcategory: "Миксы", alcoholContent: "15% алк." },
+  { id: 237, name: "Босфорд Тоник", description: "Джин Босфорд, тоник, лимон", price: 400, subcategory: "Миксы", alcoholContent: "15% алк." },
+  { id: 238, name: "Бабл Гам", description: "Водка, морс, спрайт, сироп Бабл Гам, лимон", price: 350, subcategory: "Миксы", alcoholContent: "15% алк." },
+  { id: 239, name: "Мартини Фиеро Тоник", description: "Мартини Фиеро, тоник, лимон", price: 500, subcategory: "Миксы", alcoholContent: "7.4% алк." },
+  { id: 240, name: "Мартини Бьянка Тоник", description: "Мартини Бьянка, тоник, лайм", price: 500, subcategory: "Миксы", alcoholContent: "7.4% алк." },
+  
+  // Коктейли — Рокс
+  { id: 241, name: "Белый Русский", description: "Водка, ликер кофе, сливки", price: 450, subcategory: "Рокс", alcoholContent: "25% алк." },
+  { id: 242, name: "Негрони", description: "Кампари, Мартини Фиеро, джин, ангостура, апельсин", price: 600, subcategory: "Рокс", alcoholContent: "30% алк." },
+  { id: 243, name: "Крестный Отец", description: "Виски Харатс, ликер амаретто, ангостура, апельсин", price: 350, subcategory: "Рокс", alcoholContent: "30% алк." },
+  { id: 244, name: "Пенициллин", description: "Вильям Лоусонс, Лафройг, сироп имбирь-мёд, сок лимона", price: 650, subcategory: "Рокс", alcoholContent: "30% алк." },
 
   // Коктейли — Шоты
-  {
-    id: 20,
-    name: "Текила шот",
-    description: "Классический шот текилы с солью и лаймом",
-    price: 300,
-    category: "Коктейли",
-    subcategory: "Шоты",
-    alcoholContent: "40% алк."
-  },
-  {
-    id: 55,
-    name: "А-52 50мл",
-    description: "Абсент; сливочный ликёр; кофейный ликёр",
-    price: 400,
-    category: "Коктейли",
-    subcategory: "Шоты",
-    alcoholContent: "40% алк."
-  },
-  {
-    id: 56,
-    name: "Б-52 50мл",
-    description: "Трипл сек; сливочный ликёр; кофейный ликёр",
-    price: 350,
-    category: "Коктейли",
-    subcategory: "Шоты",
-    alcoholContent: "35% алк."
-  },
-  {
-    id: 57,
-    name: "Хиросима 50мл",
-    description: "Абсент; сливочный ликёр; самбука; сироп гренадин",
-    price: 400,
-    category: "Коктейли",
-    subcategory: "Шоты",
-    alcoholContent: "40% алк."
-  },
-  {
-    id: 58,
-    name: "Добрый Егерь 50мл",
-    description: "Сок лимона; Егермейстер",
-    price: 350,
-    category: "Коктейли",
-    subcategory: "Шоты",
-    alcoholContent: "20% алк."
-  },
-
-  // Коктейли — Лимонады
-  {
-    id: 19,
-    name: "Лимонад Мохито",
-    description: "Освежающий лимонад с мятой, лаймом и газированной водой",
-    price: 450,
-    category: "Коктейли",
-    subcategory: "Лимонады",
-    alcoholContent: "0% алк."
-  },
-  {
-    id: 59,
-    name: "Бабл Гам 250мл",
-    description: "Морс; спрайт; сироп бабл гам; лимон",
-    price: 250,
-    category: "Коктейли",
-    subcategory: "Лимонады",
-    alcoholContent: "0% алк."
-  },
-  {
-    id: 60,
-    name: "Лесные ягоды 250мл",
-    description: "Сироп ежевика; гренадин; содовая; лимон",
-    price: 250,
-    category: "Коктейли",
-    subcategory: "Лимонады",
-    alcoholContent: "0% алк."
-  },
-  {
-    id: 61,
-    name: "Др.Пеппер 250мл",
-    description: "Вишнёвый сок; кола; сироп; лимон",
-    price: 250,
-    category: "Коктейли",
-    subcategory: "Лимонады",
-    alcoholContent: "0% алк."
-  },
-
+    { id: 245, name: "А-52", description: "Ликер кофе, Бейлиз, Абсент", price: 400, subcategory: "Шоты", alcoholContent: "35% алк." },
+  { id: 246, name: "Б-52", description: "Ликер кофе, Бейлиз, трипл сек", price: 350, subcategory: "Шоты", alcoholContent: "30% алк." },
+  { id: 247, name: "Хиросима", description: "Самбука, Бейлиз, Абсент", price: 400, subcategory: "Шоты", alcoholContent: "40% алк." },
+  { id: 248, name: "Добрый Егерь", description: "Сок лимона, Егермейстер", price: 350, subcategory: "Шоты", alcoholContent: "25% алк." },
+  { id: 249, name: "Облака", description: "Самбука, текила, Бейлиз, ликер блю кюрасао", price: 400, subcategory: "Шоты", alcoholContent: "40% алк." },
+  { id: 250, name: "Рыжая собака", description: "Самбука, текила, табаско", price: 400, subcategory: "Шоты", alcoholContent: "39% алк." },
+  { id: 251, name: "Мяу", description: "Ликер персик, Оакхарт, сок лимона", price: 350, subcategory: "Шоты", alcoholContent: "40% алк." },
+  { id: 252, name: "Слэм", description: "Сироп маракуя, малиновая водка, сок лимона", price: 350, subcategory: "Шоты", alcoholContent: "30% алк." },
+  { id: 253, name: "Планета Тафи", description: "Сироп фисташка, водка груша, сок лимона", price: 350, subcategory: "Шоты", alcoholContent: "30% алк." },
   // Пиво
   {
     id: 6,
@@ -1300,7 +990,57 @@ export const menuItems: MenuItemData[] = [
   price: 250,
   category: "Виски",
   alcoholContent: "40% алк."
-}
+},
+  // Закуски
+  {
+    id: 401,
+    name: "Сэндвич с ветчиной и сыром",
+    description: "200гр",
+    price: 350,
+    category: "Закуски"
+  },
+  {
+    id: 402,
+    name: "Сэндвич с лососем и рукколой",
+    description: "200гр",
+    price: 480,
+    category: "Закуски"
+  },
+  {
+    id: 403,
+    name: "Круассан с бужениной и сыром",
+    description: "150гр",
+    price: 330,
+    category: "Закуски"
+  },
+  {
+    id: 404,
+    name: "Круассан с куриной грудкой и томатами черри",
+    description: "150гр",
+    price: 330,
+    category: "Закуски"
+  },
+  {
+    id: 405,
+    name: "Круассан с семгой, зеленью и творожным сыром",
+    description: "150гр",
+    price: 490,
+    category: "Закуски"
+  },
+  {
+    id: 406,
+    name: "Сырное ассорти (2 вида сыра)",
+    description: "250гр",
+    price: 560,
+    category: "Закуски"
+  },
+  {
+    id: 407,
+    name: "Мясное ассорти (с/к колбаса 3х видов)",
+    description: "180гр",
+    price: 610,
+    category: "Закуски"
+  }
 
 
 
