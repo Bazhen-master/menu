@@ -27,7 +27,7 @@ export function MenuGrid({ items, selectedCategory }: MenuGridProps) {
       return acc;
     }, {} as Record<string, MenuItemData[]>);
 
-    const subcategoryOrder = ['Авторские', 'Популярные', 'Спецпредложения', 'Спритц коктейли', 'Шоты', 'Лимонады', 'АКЦИИ', 'Сеты для компаний', 'Другие'];
+    const subcategoryOrder = ['АКЦИИ', 'Сеты для компаний', 'Авторские', 'Спритц', 'Лонг', 'Классические', 'Миксы', 'Рокс', 'Шоты'];
     
     return (
       <div className="space-y-12">
