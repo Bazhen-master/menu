@@ -8,7 +8,7 @@ export interface Category {
 export const menuItems: MenuItemData[] = [
   // Коктейли — Акции
   { id: 201, name: "ЯРЛС", description: "6 шотов, водка, ликер, сок, сироп, лимон", price: 800, category: "Коктейли", subcategory: "Акции", alcoholContent: "10%" },
-  { id: 202, name: "Виски кола 2+1", description: "Виски, кола, лимон", price: 850, category: "Коктейли", subcategory: "Акции", alcoholContent: "15%" },
+  { id: 202, name: "Виски кола 2+1", description: "Виски, кола, лимон", price: 800, category: "Коктейли", subcategory: "Акции", alcoholContent: "15%" },
   { id: 203, name: "Фантазёр", description: "4 коктейля водка с фантой", price: 1000, category: "Коктейли", subcategory: "Акции", alcoholContent: "15%" },
   { id: 204, name: "Зеленый Less", description: "4 шота Оакхарт, ликёр, сок, лайм", price: 800, category: "Коктейли", subcategory: "Акции", alcoholContent: "25%" },
 
